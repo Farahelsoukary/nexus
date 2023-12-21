@@ -1,0 +1,31 @@
+.all-browsers {
+    margin: 0;
+    padding: 2px;
+    background-color: lightgray;
+    margin-bottom: 0;
+}
+
+.all-browsers>h1,
+.browser {
+    margin: 10px;
+    padding: 0.5px;
+}
+
+.browser {
+    background: white;
+}
+
+.browser>h2,
+p {
+    margin: 0.5px;
+    font-size: 90%;
+}
+
+footer {
+    text-align: center;
+    padding: 0.5px;
+    background-color: DarkSalmon;
+    color: white;
+    margin-bottom: 0;
+
+}
