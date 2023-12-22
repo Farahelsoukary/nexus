@@ -1,0 +1,36 @@
+.header-content {
+    min-height: 75vh;
+    background: linear-gradient(rgba(141, 39, 174, 0.3), rgba(141, 39, 174, 0.5)),
+        /*url("../../images/library-img.jpg") */
+        center/cover no-repeat;
+    flex-direction: column;
+}
+
+.header-title {
+    font-size: 4.6rem;
+    margin:auto;
+    margin-top: 4%;
+    color: #fd4930;
+}
+
+.header-text {
+    /* margin-top: -1.8rem;
+    margin-bottom: 2.8rem;
+    margin-left: 25%; */
+    margin:auto;
+    opacity: 0.8;
+    font-size: 1rem;
+    max-width: 75%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    position: relative;
+    color: #263238;
+    font-size: 3;
+}
+
+.background {
+    /* background-image: url(../../photo_2023-12-21_21-40-39.jpg); */
+    /* background-image: url(../../newbg.jpg); */
+    background-repeat: none;
+    background-size: 100%;
+}
