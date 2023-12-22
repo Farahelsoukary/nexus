@@ -80,20 +80,20 @@ const BookDetails = () => {
                             </div>
                         ))}
                     </div>
-                    <div className="custom-card">
-                        <h3 style={{ fontSize: "1.32rem", color: "white" }}>
-                            Didn't find the book you love?
+                    <div className="custom-card" style={{backgroundColor: "transparent", fontWeight: "300"}}>
+                        <h3 style={{ fontSize: "1.32rem" }}>
+                            Don't find what you're looking for?
                         </h3>
-                        <br />
-                        <h3 style={{ fontSize: "1.21rem", color: "white" }}>
+                        <h3 style={{ fontSize: "1.21rem"}}>
                             Search for your favorite{" "}
-                            <span style={{ fontWeight: "bold", color: "black" }}>Genre</span> or{" "}
-                            <span style={{ fontWeight: "bold", color: "black" }}>Author</span> in
+                            <span style={{ color: "black" }}>Genre</span> or{" "}
+                            <span style={{  color: "black" }}>Author</span> in
                             the search box!!
                         </h3>
-                    </div>
+                    
                     <div className="load-more">
                         <button onClick={() => loadMore()}>Load More!</button>
+                    </div>
                     </div>
                 </section>
             )}

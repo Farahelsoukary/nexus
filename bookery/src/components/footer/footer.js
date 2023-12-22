@@ -1,28 +1,30 @@
-import React, { Component } from "react";
-import './footer.css';
+import React from 'react';
+import { Container, Row, Col, Button } from 'react-bootstrap';
+import { FaFacebook, FaTwitter, FaGoogle, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 
-class Footer extends React.Component {
-    render() {
-        return (
-            <><article className="all-browsers">
-                <h1>Most Popular Browsers</h1>
-                <article className="browser">
-                    <h2>Google Chrome</h2>
-                    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
-                </article>
-                <article className="browser">
-                    <h2>Mozilla Firefox</h2>
-                    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
-                </article>
-                <article className="browser">
-                    <h2>Microsoft Edge</h2>
-                    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
-                </article>
-            </article><footer>
-                    <p>Author: Hege Refsnes
-                        <a href="mailto:hege@example.com">hege@example.com</a></p>
-                </footer></>);
-    }
+export default function Footer() {
+  return (
+    <footer className='text-center text-white' style={{ marginTop: "5%",backgroundColor: '#263238' }}>
+      <Container className='p-4 pb-0'>
+        <section className='mb-4'>
+          <Button href='#!'style={{backgroundColor: "#fd4930"}} className='m-1' as='a' role='button'>
+            <FaFacebook />
+          </Button>
+          <Button href='#!' style={{backgroundColor: "#fd4930"}} className='m-1' as='a' role='button'>
+            <FaTwitter />
+          </Button>
+          <Button href='#!' style={{backgroundColor: "#fd4930"}} className='m-1' as='a' role='button'>
+            <FaInstagram />
+          </Button>
 
+          
+        </section>
+      </Container>
+      <hr className='w-50 mx-auto'></hr>
+      <div className='text-center p-3' style={{ backgroundColor: '#263238' }}>
+        © 2023 Copyright: Nexus.com
+        
+      </div>
+    </footer>
+  );
 }
-export default Footer;
