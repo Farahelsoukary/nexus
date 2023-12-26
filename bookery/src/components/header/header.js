@@ -37,7 +37,7 @@ class Header extends React.Component {
                                     }
                                 }
                                 }
-                                >Books</NavLink>
+                                > Old books</NavLink>
 
                                 <NavLink className="nav-link" to='/tvshow' style={({ isActive }) => {
                                     return {
@@ -46,7 +46,7 @@ class Header extends React.Component {
                                     }
                                 }
                                 }
-                                >New Books</NavLink>
+                                >New books</NavLink>
                                 <NavLink className="nav-link" to='/contact' style={({ isActive }) => {
                                     return {
                                         color: isActive ? "#fd4930" : "",
@@ -54,7 +54,7 @@ class Header extends React.Component {
                                     }
                                 }
                                 }
-                                >Contact</NavLink>
+                                >Donations</NavLink>
                                 <NavLink className="nav-link" to='/login' style={({ isActive }) => {
                                     return {
                                         color: isActive ? "#fd4930" : "",
@@ -62,7 +62,7 @@ class Header extends React.Component {
                                     }
                                 }
                                 }
-                                >Join us</NavLink>
+                                >Login</NavLink>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>
