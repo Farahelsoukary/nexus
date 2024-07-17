@@ -1,4 +1,3 @@
-#NexusBooks
 NexusBooks is a comprehensive platform for managing and exploring a collection of books. This project allows users to search for books, view details, and manage their personal library efficiently.
 
 ![1 (1)](https://github.com/user-attachments/assets/1b5c492f-8df2-4fed-a42f-2559da7c7c2e)
